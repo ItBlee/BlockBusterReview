@@ -4,6 +4,22 @@
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
     <persistence-unit name="default">
-
+        <class>com.tvproject.blockbusterreview.web.model.CompanyModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.CountryModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.GenderModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.GenreModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.ImageModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.KeywordModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.LanguageModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.MovieModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.MovieCastModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.MovieCrewModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.PersonModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.VideoModel</class>
+        <class>com.tvproject.blockbusterreview.web.model.Movie2Model</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/blockbusterreviewdb"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+        </properties>
     </persistence-unit>
 </persistence>

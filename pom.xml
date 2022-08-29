@@ -13,10 +13,11 @@
     <properties>
         <jsp.api.version>2.2.1-b03</jsp.api.version>
         <servlet.version>4.0.1</servlet.version>
-        <hibernate.version>5.3.28.Final</hibernate.version>
-        <mysql.version>8.0.13</mysql.version>
+        <hibernate.version>5.6.10.Final</hibernate.version>
+        <mysql.version>8.0.30</mysql.version>
         <jstl.version>1.2</jstl.version>
         <sitemesh.version>2.4.2</sitemesh.version>
+        <themoviedbapi.version>1.12</themoviedbapi.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -44,6 +45,11 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.holgerbrandl</groupId>
+            <artifactId>themoviedbapi</artifactId>
+            <version>${themoviedbapi.version}</version>
         </dependency>
         <dependency>
             <groupId>jstl</groupId>
